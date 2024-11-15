@@ -1,0 +1,27 @@
+# Android 필수 파일 제외 규칙
+
+# 빌드 디렉토리 제외
+/build/
+.gradle/
+local.properties
+
+# 사용자 설정 파일 제외
+.idea/
+*.iml
+
+# 테스트 파일 제외
+src/test/
+src/androidTest/
+
+# 로그 파일, OS 파일 등 불필요한 파일 제외
+*.log
+*.DS_Store
+.env
+
+# 키스토어 파일 제외
+*.keystore
+*.jks
+
+# 모든 테스트 파일 제외
+app/src/test/
+app/src/androidTest/

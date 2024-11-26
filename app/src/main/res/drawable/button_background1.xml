@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- 버튼 클릭 상태 (밝은 색상) -->
+    <item android:drawable="@color/colorClicked" android:state_pressed="true"/>
+
+    <!-- 버튼 기본 상태 (어두운 색상) -->
+    <item android:drawable="@color/colorNormal1"/>
+</selector>

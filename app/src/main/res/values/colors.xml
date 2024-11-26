@@ -2,4 +2,8 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="colorClicked">#555555</color> <!-- 연산 버튼 클릭 시 -->
+    <color name="colorNormal1">#333333</color>  <!-- 연산 버튼 기본 상태 -->
+    <color name="colorNormal2">#000000</color>  <!-- 목록 버튼 기본 상태 -->
+
 </resources>

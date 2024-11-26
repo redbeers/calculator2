@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 계산식, 결과 스타일 -->
+    <style name="CalculatorProgramResultView">
+        <item name="android:layout_height">150dp</item>
+        <item name="android:gravity">center_vertical|end</item>
+        <item name="android:textColor">#FFFFFFFF</item>
+        <item name="android:textSize">30dp</item>
+        <item name="android:paddingEnd">15dp</item>
+    </style>
+
+    <!-- 연산 버트 -->
+    <style name="CalculationButton">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_rowWeight">1</item>
+        <item name="android:layout_columnWeight">1</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">#FFFFFFFF</item>
+        <item name="android:background">@drawable/button_background1</item>
+    </style>
+</resources>
